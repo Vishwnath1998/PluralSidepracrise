@@ -1,0 +1,112 @@
+.container{
+    margin: 0;
+    padding: 0;
+    font-family: Roboto,sans-serif;
+    display: flex;
+    flex-direction: row;
+    position: cover;
+}
+.first{
+    width: 40%;
+    height: 100vh;
+    display: flex;
+    background-color: rgb(35, 36, 39);
+    flex-direction: column;
+    align-items: center;
+}
+.img{
+  /* padding: 60px;  */
+  padding-top: 50px;  
+}
+.name{
+    font-size: 20px;
+    font-weight: bold;
+    color: aliceblue;
+    justify-content: center;
+    padding-top: 50px;
+   
+}
+.name input{
+    height: 30px;
+    width: 300px;
+    /* padding-top: 10px; */
+    border: 2px solid rgb(231, 226, 226);
+    background-color: rgb(35, 36, 39);
+    border-radius: 5px;
+}
+#label1{
+    padding-top: 10px;
+}
+.button1 button{
+    background-color:rgb(16,111,194);
+    color: white;
+    font-size: 15px;
+    width: 300px;
+    height: 40px;
+    padding-bottom: 10px;
+    margin-top: 20px;
+    border: none;
+    
+}
+.button2 button{
+    background-color:rgb(17, 17, 17);
+    color: white;
+    font-size: 15px;
+    width: 300px;
+    height: 40px;
+    padding-bottom: 10px;
+    margin-top: 20px;
+    border: none;  
+}
+.copyright{
+    padding-top: 40px;
+    font-size: 13px;
+    color: rgb(140, 144, 148);
+}
+
+.text{
+    margin-top: 40px;
+    color: rgb(16,111,194);
+}
+.line{
+    width: 300px;
+    text-decoration: underline;
+}
+span{
+    padding-top: 30px;
+}
+span a{
+    color: rgb(140, 144, 148);
+}
+.second{
+    display: flex;
+    background-color: rgb(17, 17, 17);
+    justify-content: flex-end;
+    width: 60%; 
+}
+.second img{
+   width: 70%; 
+}
+.img1{
+    position: absolute;
+    margin-right: 100px;
+    margin-top: 200px;
+    width: 90vh;
+}
+.button3{
+    position: absolute;
+    right: 80vh;
+    top: 65vh;
+}
+.button3 button{
+    width: 220px;
+    height: 30px;
+    background-image: linear-gradient(to right,#F05A28,#EC008C,#F05A28);
+    border: none;
+    color: white;
+}
+.last{
+    position: absolute;
+    width: 230px;
+    bottom: 50px;
+}
